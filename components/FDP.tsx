@@ -765,7 +765,7 @@ export default function FDPPage() {
 
           <div className="pt-5 text-center font-mono text-[10px] tracking-wide text-[#B9C6D9]">
 
-            Website developed by{" "}
+          FDP Webpage developed by{" "}
             <span className="font-semibold text-[#5FE1EE]">
               GL Pratham
             </span>{" "}
