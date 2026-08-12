@@ -9,7 +9,7 @@ export default function Footer() {
           MIT Mysore
         </p>
 
-        <p className="mt-2 text-[9px] tracking-wide text-white/40">
+        <p className="mt-2 text-[12px] font-medium tracking-wide text-white/60">
           Website prepared and maintained by CoE-ESGST
         </p>
 
