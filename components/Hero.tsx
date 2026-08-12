@@ -242,7 +242,9 @@ export default function Hero() {
             </p>
 
 
-            {/* BUTTONS */}
+            {/* =================================================
+                BUTTONS
+            ================================================== */}
             <div className="mt-4 flex flex-wrap gap-2 sm:mt-6 sm:gap-3">
 
               {/* UPCOMING EVENTS */}
@@ -255,6 +257,23 @@ export default function Hero() {
                 </span>
 
                 Upcoming Events
+              </a>
+
+
+              {/* EXPLORE FDP */}
+              <a
+                href="/fdp"
+                className="inline-flex items-center gap-2 rounded-md bg-[#713717] px-4 py-2.5 text-xs font-bold uppercase tracking-wide text-white shadow-md transition hover:bg-[#542612] sm:px-6 sm:py-3 sm:text-sm"
+              >
+                <span className="text-sm">
+                  ★
+                </span>
+
+                Explore FDP
+
+                <span className="ml-1">
+                  →
+                </span>
               </a>
 
 
