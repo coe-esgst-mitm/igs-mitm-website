@@ -8,10 +8,7 @@ export default function UpcomingEvent() {
     >
       <div className="mx-auto max-w-[1250px]">
 
-        {/* =====================================================
-            SECTION HEADING
-        ====================================================== */}
-
+        {/* SECTION HEADING */}
         <div className="mb-9 text-center">
 
           <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#a64d26]">
@@ -27,17 +24,11 @@ export default function UpcomingEvent() {
         </div>
 
 
-        {/* =====================================================
-            EVENT CARD
-        ====================================================== */}
-
+        {/* EVENT CARD */}
         <div className="grid overflow-hidden rounded-2xl border border-[#dfd1c1] bg-[#f5efe6] shadow-xl lg:grid-cols-[0.82fr_1.18fr]">
 
 
-          {/* =================================================
-              BROCHURE
-          ================================================== */}
-
+          {/* BROCHURE */}
           <div className="relative flex min-h-[480px] items-center justify-center bg-[#e8ded1] p-5">
 
             <div className="relative h-full min-h-[440px] w-full">
@@ -54,21 +45,16 @@ export default function UpcomingEvent() {
           </div>
 
 
-          {/* =================================================
-              EVENT DETAILS
-          ================================================== */}
-
+          {/* EVENT DETAILS */}
           <div className="flex flex-col justify-center px-7 py-9 sm:px-10 lg:px-12">
 
-            {/* Event badge */}
-
+            {/* EVENT BADGE */}
             <div className="inline-flex w-fit rounded-full bg-[#713717] px-4 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-white">
               National-Level FDP
             </div>
 
 
-            {/* Main title */}
-
+            {/* TITLE */}
             <h3 className="mt-5 text-3xl font-black leading-tight text-[#38261d] sm:text-4xl">
 
               AI in Civil Engineering:
@@ -81,28 +67,24 @@ export default function UpcomingEvent() {
             </h3>
 
 
-            {/* Organizer */}
-
+            {/* ORGANIZER */}
             <p className="mt-4 text-sm font-semibold leading-6 text-[#66584d]">
 
               Organized by the{" "}
+
               <span className="font-bold text-[#713717]">
                 Department of Civil Engineering
               </span>
+
               , Maharaja Institute of Technology Mysore
 
             </p>
 
 
-            {/* =================================================
-                EVENT INFORMATION
-            ================================================== */}
-
+            {/* EVENT INFORMATION */}
             <div className="mt-7 grid gap-4 sm:grid-cols-2">
 
-
               {/* DATE */}
-
               <div className="flex items-start gap-3">
 
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#ad4d20] text-white">
@@ -125,7 +107,6 @@ export default function UpcomingEvent() {
 
 
               {/* VENUE */}
-
               <div className="flex items-start gap-3">
 
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#ad4d20] text-white">
@@ -153,10 +134,7 @@ export default function UpcomingEvent() {
             </div>
 
 
-            {/* =================================================
-                REGISTRATION FEE
-            ================================================== */}
-
+            {/* REGISTRATION FEE */}
             <div className="mt-6 rounded-xl border border-[#d7c5b3] bg-[#fffaf3] p-5">
 
               <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#8a7563]">
@@ -194,34 +172,34 @@ export default function UpcomingEvent() {
             </div>
 
 
-            {/* =================================================
-                BENEFITS
-            ================================================== */}
-
+            {/* BENEFITS */}
             <div className="mt-5 grid grid-cols-1 gap-2 text-sm text-[#51463d] sm:grid-cols-3">
 
               <div className="flex items-center gap-2">
-                <span className="font-bold text-[#a84c23]">✓</span>
+                <span className="font-bold text-[#a84c23]">
+                  ✓
+                </span>
                 Lunch &amp; Tea
               </div>
 
               <div className="flex items-center gap-2">
-                <span className="font-bold text-[#a84c23]">✓</span>
+                <span className="font-bold text-[#a84c23]">
+                  ✓
+                </span>
                 Programme Kit
               </div>
 
               <div className="flex items-center gap-2">
-                <span className="font-bold text-[#a84c23]">✓</span>
+                <span className="font-bold text-[#a84c23]">
+                  ✓
+                </span>
                 Certificate
               </div>
 
             </div>
 
 
-            {/* =================================================
-                PARTICIPATION LIMIT
-            ================================================== */}
-
+            {/* PARTICIPATION LIMIT */}
             <div className="mt-5 flex items-center gap-3 rounded-lg border border-[#e1b59c] bg-[#fff3eb] px-4 py-3">
 
               <span className="text-lg text-[#ad4d20]">
@@ -241,6 +219,19 @@ export default function UpcomingEvent() {
 
             <div className="mt-7 flex flex-wrap gap-3">
 
+              {/* EXPLORE FDP */}
+              <a
+                href="/fdp"
+                className="inline-flex items-center justify-center rounded-md bg-[#713717] px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white shadow-md transition hover:bg-[#542612]"
+              >
+                Explore FDP
+                <span className="ml-2">
+                  →
+                </span>
+              </a>
+
+
+              {/* REGISTER NOW */}
               <a
                 href="https://forms.gle/QD2R5aGGyFBziawT9"
                 target="_blank"
@@ -248,9 +239,13 @@ export default function UpcomingEvent() {
                 className="inline-flex items-center justify-center rounded-md bg-[#ad4d20] px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white shadow-md transition hover:bg-[#8e3d19]"
               >
                 Register Now
-                <span className="ml-2">→</span>
+                <span className="ml-2">
+                  →
+                </span>
               </a>
 
+
+              {/* CONTACT */}
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center rounded-md border-2 border-[#59602f] bg-white px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-[#4d5528] transition hover:bg-[#ebe6d9]"
@@ -261,8 +256,7 @@ export default function UpcomingEvent() {
             </div>
 
 
-            {/* Registration note */}
-
+            {/* REGISTRATION NOTE */}
             <p className="mt-4 text-xs text-[#817368]">
               Registration is subject to availability. Only 50 participants
               will be accommodated.
