@@ -10,12 +10,11 @@ export const metadata: Metadata = {
     title: "IGS – MIT Mysore",
     description:
       "Indian Geotechnical Society – MIT Mysore Student Chapter | Department of Civil Engineering, MIT Mysore",
-    url: "https://igs-mitm-website.vercel.app/",
-    siteName: "IGS – MIT Mysore",
     type: "website",
+    siteName: "IGS – MIT Mysore",
     images: [
       {
-        url: "https://igs-mitm-website.vercel.app/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "IGS – MIT Mysore",
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
     title: "IGS – MIT Mysore",
     description:
       "Indian Geotechnical Society – MIT Mysore Student Chapter",
-    images: ["https://igs-mitm-website.vercel.app/og-image.png"],
+    images: ["/og-image.png"],
   },
 };
 
