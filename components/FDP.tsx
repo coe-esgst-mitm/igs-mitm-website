@@ -233,7 +233,7 @@ export default function FDPPage() {
           />
 
           <OrgItem
-            image="https://lh3.googleusercontent.com/d/1taZD6j79o-iAjDn6Eac1tckGVNXyWqUU"
+            image="/images/getskilled-logo.png"
             title="Getskilled™"
             subtitle="Gyaankool Research Labs Pvt. Ltd."
           />
