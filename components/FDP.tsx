@@ -348,7 +348,7 @@ export default function FDPPage() {
               <div className="mb-7 overflow-hidden border border-[#DAD2B8]">
 
                 <Image
-                  src="https://lh3.googleusercontent.com/d/1HH2z9qgHbf_Pw2bqOEslecwOxLqH2TuO"
+                  src="/images/mitmysore.jpg"
                   alt="MIT Mysore campus"
                   width={800}
                   height={350}
